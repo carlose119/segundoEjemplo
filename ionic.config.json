@@ -1,0 +1,11 @@
+{
+  "name": "segundoEjemplo",
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/githutApi",
+      "proxyUrl": "https://api.github.com"
+    }
+  ],
+  "type": "ionic-angular"
+}
