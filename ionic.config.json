@@ -5,6 +5,10 @@
     {
       "path": "/githutApi",
       "proxyUrl": "https://api.github.com"
+    },
+    {
+      "path": "/deezerAPI",
+      "proxyUrl": "http://api.deezer.com/"
     }
   ],
   "type": "ionic-angular"

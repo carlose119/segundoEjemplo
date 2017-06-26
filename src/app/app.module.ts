@@ -8,10 +8,16 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { BuscarPage } from '../pages/buscar/buscar';
 import { DetailsPage } from '../pages/details/details';
+import { AcercaPage } from '../pages/acerca/acerca';
+import { PerfilesPage } from '../pages/perfiles/perfiles';
+import { PlaylistsPage } from '../pages/playlists/playlists';
+import { CancionesPage } from '../pages/canciones/canciones';
+import { PerfilDetallesPage } from '../pages/perfil-detalles/perfil-detalles';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { GithubProvider } from '../providers/github/github';
+import { DeezerServiceProvider } from '../providers/deezer-service/deezer-service';
 
 @NgModule({
   declarations: [
@@ -19,7 +25,12 @@ import { GithubProvider } from '../providers/github/github';
     HomePage,
     ListPage,
     BuscarPage,
-    DetailsPage
+    DetailsPage,
+    AcercaPage,
+    PerfilesPage,
+    PlaylistsPage,
+    CancionesPage,
+    PerfilDetallesPage
   ],
   imports: [
     BrowserModule,
@@ -32,13 +43,19 @@ import { GithubProvider } from '../providers/github/github';
     HomePage,
     ListPage,
     BuscarPage,
-    DetailsPage
+    DetailsPage,
+    AcercaPage,
+    PerfilesPage,
+    PlaylistsPage,
+    CancionesPage,
+    PerfilDetallesPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    GithubProvider
+    GithubProvider,
+    DeezerServiceProvider
   ]
 })
 export class AppModule {}
