@@ -8,6 +8,8 @@ import { ListPage } from '../pages/list/list';
 import { BuscarPage } from '../pages/buscar/buscar';
 import { AcercaPage } from '../pages/acerca/acerca';
 import { PerfilesPage } from '../pages/perfiles/perfiles';
+import { PaginaBitcointravelPage } from '../pages/pagina-bitcointravel/pagina-bitcointravel';
+import { PaginaTuagencia24Page } from '../pages/pagina-tuagencia24/pagina-tuagencia24';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +30,9 @@ export class MyApp {
       { title: 'Lista', component: ListPage, icon: 'list' },
       { title: 'Buscar', component: BuscarPage, icon: 'mail' },
       { title: 'Deezer', component: PerfilesPage, icon: 'person' },
-      { title: 'Acerca de', component: AcercaPage, icon: 'information-circle' }
+      { title: 'Acerca de', component: AcercaPage, icon: 'information-circle' },
+      { title: 'http://bitcointravel.mobi/', component: PaginaBitcointravelPage, icon: 'cloud' },
+      { title: 'http://dev.tuagencia24.com/web/', component: PaginaTuagencia24Page, icon: 'cloud' }
     ];
 
   }

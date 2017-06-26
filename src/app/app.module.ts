@@ -13,6 +13,8 @@ import { PerfilesPage } from '../pages/perfiles/perfiles';
 import { PlaylistsPage } from '../pages/playlists/playlists';
 import { CancionesPage } from '../pages/canciones/canciones';
 import { PerfilDetallesPage } from '../pages/perfil-detalles/perfil-detalles';
+import { PaginaBitcointravelPage } from '../pages/pagina-bitcointravel/pagina-bitcointravel';
+import { PaginaTuagencia24Page } from '../pages/pagina-tuagencia24/pagina-tuagencia24';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -30,7 +32,9 @@ import { DeezerServiceProvider } from '../providers/deezer-service/deezer-servic
     PerfilesPage,
     PlaylistsPage,
     CancionesPage,
-    PerfilDetallesPage
+    PerfilDetallesPage,
+    PaginaBitcointravelPage,
+    PaginaTuagencia24Page
   ],
   imports: [
     BrowserModule,
@@ -48,7 +52,9 @@ import { DeezerServiceProvider } from '../providers/deezer-service/deezer-servic
     PerfilesPage,
     PlaylistsPage,
     CancionesPage,
-    PerfilDetallesPage
+    PerfilDetallesPage,
+    PaginaBitcointravelPage,
+    PaginaTuagencia24Page
   ],
   providers: [
     StatusBar,
